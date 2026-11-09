@@ -40,6 +40,11 @@ const routes=[
    {id:2,name:'Музей-квартира Н. А. Римского-Корсакова',address:'Загородный проспект, 28',coord:[59.924734,30.340715]}
  ]}
 ];
+const landmarks=[
+ {title:'Думская башня',coord:[59.934684,30.329620],img:'./assets/dumskaya.svg'},
+ {title:'Собор Владимирской иконы Божией Матери',coord:[59.928181,30.348258],img:'./assets/vladimir.svg'},
+ {title:'Аничков мост',coord:[59.933203,30.343375],img:'./assets/anichkov.svg'}
+];
 const PROGRESS_STORAGE_KEY='gm_progress_v2';
 function readProgressState(){
   try{

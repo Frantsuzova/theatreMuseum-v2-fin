@@ -10866,8 +10866,10 @@ body.type-original p,body.type-original figcaption,body.type-original .gallery-c
 .intro-topbar .intro-sponsor span{font-size:7px!important;line-height:9px!important;white-space:nowrap!important;}
 
 /* v44 — three heading families, one body font, shared project page and cast list. */
+@font-face{font-family:'Ricordi Allegria';src:url('./assets/TT-Ricordi-Allegria-Trial-Regular.ttf') format('truetype');font-weight:400;font-display:swap}
 @font-face{font-family:'Caviar Dreams';src:url('./assets/CaviarDreams.ttf') format('truetype');font-weight:400;font-display:swap}
 body{--body-font:'Montserrat',sans-serif;--heading-font:'Stage Sans',sans-serif}
+body[data-heading=ricordi]{--heading-font:'Ricordi Allegria','Montserrat',sans-serif}
 body[data-heading=caviar]{--heading-font:'Caviar Dreams','Montserrat',sans-serif}
 body[data-heading] .intro-copy h1{font-family:var(--heading-font)!important}
 .type-preview-control{display:block;max-width:58%;min-width:0}
